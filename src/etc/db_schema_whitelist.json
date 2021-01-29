@@ -1,0 +1,23 @@
+{
+    "itonomy_customerprice": {
+        "column": {
+            "entity_id": true,
+            "customer_id": true,
+            "product_id": true,
+            "website_id": true,
+            "customer_price": true,
+            "created_at": true,
+            "updated_at": true
+        },
+        "index": {
+            "ITONOMY_CUSTOMERPRICE_PRODUCT_ID": true,
+            "ITONOMY_CUSTOMERPRICE_PRODUCT_ID_WEBSITE_ID_CUSTOMER_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "ITONOMY_CUSTOMERPRICE_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID": true,
+            "ITONOMY_CUSTOMERPRICE_WEBSITE_ID_STORE_WEBSITE_WEBSITE_ID": true,
+            "ITONOMY_CSTRPRICE_PRD_ID_CAT_PRD_ENTT_ENTT_ID": true
+        }
+    }
+}
