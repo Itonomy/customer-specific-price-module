@@ -12,7 +12,7 @@ The customer prices come from a table itonomy_customerprice which is not accessi
 Just the regular stuff
 
 ```bash
-composer require itonomy/customer-specific-pricing
+composer require itonomy/module-customerspecificpricing
 ```
 
 ## Contributing
