@@ -2,7 +2,7 @@
     "name": "itonomy/module-customerspecificpricing",
     "description": "Customer Specific Pricing for Magento2",
     "type": "magento2-module",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "license": [
         "MIT"
     ],
